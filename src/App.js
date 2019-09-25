@@ -32,6 +32,7 @@ function App() {
 	return (
 		<div className="contenedor">
 			<Frase frase={frase} />
+			<button onClick={consultarAPI}>Generar Nueva</button>
 		</div>
 	);
 }
